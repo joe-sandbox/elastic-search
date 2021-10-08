@@ -4,7 +4,7 @@
 
 After provisioning the databse I created a set of credentials to use them on the kibana config file.
 I followed this set of [instructions](https://cloud.ibm.com/docs/databases-for-elasticsearch?topic=databases-for-elasticsearch-getting-started) from IBM Cloud. 
-- Remember to create an admin password under IBM Cloud Setting Menu.
+- Remember to [create an admin password](https://cloud.ibm.com/docs/databases-for-elasticsearch?topic=databases-for-elasticsearch-admin-password) under IBM Cloud Setting Menu.
 - First I had to create the kibana file
 ```yml
 elasticsearch.ssl.certificateAuthorities: "/usr/share/kibana/config/cacert"
